@@ -40,8 +40,7 @@ const ErrorPage = ({ code }: propsType) => {
         setSubTitle('Xin lỗi, có lỗi xảy ra.');
         break;
     }
-  }, []);
-
+  }, [code]);
   return (
     <Container>
       <Result
