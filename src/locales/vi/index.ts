@@ -1,7 +1,7 @@
-import vi from './vi.json';
+import common from './common.json';
 
 const re = {
-  translation: vi,
+  common,
 };
 
 export default re;

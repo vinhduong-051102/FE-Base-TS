@@ -1,7 +1,7 @@
-import en from './en.json';
+import common from './common.json';
 
 const re = {
-  translation: en,
+  common,
 };
 
 export default re;
