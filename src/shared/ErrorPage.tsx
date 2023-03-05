@@ -19,7 +19,7 @@ interface propsType {
 
 const ErrorPage = ({ code }: propsType) => {
   const navigate = useNavigate();
-  const [status, setStatus] = useState<any>('500');
+  const [status, setStatus] = useState<string | number>('500');
   const [subTitle, setSubTitle] = useState('Xin lỗi, có lỗi xảy ra.');
 
   useEffect(() => {
