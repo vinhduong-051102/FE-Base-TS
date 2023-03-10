@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import { ResultStatusType } from 'antd/es/result';
 
 const Container = styled.div`
-  width: 200vh;
+  width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
