@@ -1,2 +1,7 @@
 {
+  "submit": "Xác nhận",
+  "info": "Thông tin",
+  "success": "Thành công",
+  "warning": "Cảnh báo",
+  "error": "Lỗi"
 }
