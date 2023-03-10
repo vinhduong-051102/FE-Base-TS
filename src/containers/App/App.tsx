@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='' element={<ErrorPage code={'404'} />} />
+        <Route path='' element={<ErrorPage code={404} />} />
       </Routes>
       {contextHolder}
     </>
