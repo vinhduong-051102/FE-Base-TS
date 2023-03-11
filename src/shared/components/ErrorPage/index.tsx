@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button, Result } from 'antd';
 import styled from 'styled-components';
-import PropTypes from 'prop-types';
 import { ResultStatusType } from 'antd/es/result';
 
 const Container = styled.div`
@@ -14,7 +13,7 @@ const Container = styled.div`
 `;
 
 interface propsType {
-  code: string | number;
+  code: number;
 }
 
 const ErrorPage = ({ code }: propsType) => {
@@ -51,12 +50,10 @@ const ErrorPage = ({ code }: propsType) => {
             Trở về trang chủ
           </Button>
         }
+        style={{ maxHeight: '100vh', maxWidth: '100vw' }}
       />
     </Container>
   );
-};
-ErrorPage.propTypes = {
-  code: PropTypes.number,
 };
 
 export default ErrorPage;

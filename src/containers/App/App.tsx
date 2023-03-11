@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import ErrorPage from '@/shared/ErrorPage';
+import ErrorPage from '@/shared/components/ErrorPage';
 import { notification } from 'antd';
 import { useAppDispatch, useAppSelector } from '@/hooks';
 import { selectMessageAndStatus } from '@/containers/App/appSlice';
